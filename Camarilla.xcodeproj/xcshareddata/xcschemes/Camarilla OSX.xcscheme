@@ -34,7 +34,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B00510A41BE97B7B001B3F26"
-               BuildableName = "Camarilla.xctest"
+               BuildableName = "CamarillaTests.xctest"
                BlueprintName = "Camarilla OSX Tests"
                ReferencedContainer = "container:Camarilla.xcodeproj">
             </BuildableReference>

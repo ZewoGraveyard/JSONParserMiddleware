@@ -26,26 +26,37 @@ import Fuzz
 import Curvature
 import Medea
 
-public struct JSONParserMiddleware: HTTPFallibleRequestMiddlewareType {
-    public let key: String
+public struct JSONParserMiddleware: HTTPRequestMiddlewareType {
+    public let key = "JSONBody"
 
-    public init(key: String = "JSON") {
-        self.key = key
-    }
-
-    public func respond(var request: HTTPRequest) throws -> HTTPRequestMiddlewareResult {
+    public func respond(var request: HTTPRequest) -> HTTPRequestMiddlewareResult {
         guard let mediaType = request.contentType where mediaType.type == "application/json" else {
             return .Next(request)
         }
 
-        request.data[key] = try JSONParser.parse(request.body)
+        guard let JSONBody = try? JSONParser.parse(request.body) else {
+            return .Next(request)
+        }
+
+        request.context[key] = JSONBody
+
         return .Next(request)
     }
 }
 
 extension HTTPRequest {
-    public var json: JSON? {
-        return data["JSON"] as? JSON
+    public var JSONBody: JSON? {
+        return context["JSONBody"] as? JSON
+    }
+
+    public func getJSONBody() throws -> JSON {
+        if let JSONBody = JSONBody {
+            return JSONBody
+        }
+        struct Error: ErrorType, CustomStringConvertible {
+            let description = "JSON body not found in context. Maybe you forgot to apply the JSONParserMiddleware?"
+        }
+        throw Error()
     }
 }
 

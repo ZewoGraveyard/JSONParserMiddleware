@@ -204,9 +204,9 @@
 
 /* Begin PBXFileReference section */
 		B005109B1BE97B7B001B3F26 /* Camarilla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Camarilla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B00510A51BE97B7B001B3F26 /* FuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FuzzTests.xctest; path = Camarilla.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00510A51BE97B7B001B3F26 /* FuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FuzzTests.xctest; path = CamarillaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00510EA1BE9952D001B3F26 /* Camarilla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Camarilla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B00510F31BE9952D001B3F26 /* FuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FuzzTests.xctest; path = Camarilla.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00510F31BE9952D001B3F26 /* FuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FuzzTests.xctest; path = CamarillaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08FC4781BFDFEBC005A1705 /* Curvature.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Curvature.xcodeproj; path = Carthage/Checkouts/Curvature/Curvature.xcodeproj; sourceTree = "<group>"; };
 		B08FC4871BFDFEC1005A1705 /* Otherside.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Otherside.xcodeproj; path = Carthage/Checkouts/Otherside/Otherside.xcodeproj; sourceTree = "<group>"; };
 		B09B60AE1C055CF7002BE654 /* Fuzz.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Fuzz.xcodeproj; path = Carthage/Checkouts/Fuzz/Fuzz.xcodeproj; sourceTree = "<group>"; };
