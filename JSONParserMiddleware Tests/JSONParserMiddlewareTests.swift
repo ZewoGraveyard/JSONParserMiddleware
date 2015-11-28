@@ -1,4 +1,4 @@
-// CamarillaTests.swift
+// JSONParserMiddlewareTests.swift
 //
 // The MIT License (MIT)
 //
@@ -23,8 +23,8 @@
 // SOFTWARE.
 
 import XCTest
-import Camarilla
+import JSONParserMiddleware
 
-class CamarillaTests: XCTestCase {
+class JSONParserMiddlewareTests: XCTestCase {
     func test() {}
 }

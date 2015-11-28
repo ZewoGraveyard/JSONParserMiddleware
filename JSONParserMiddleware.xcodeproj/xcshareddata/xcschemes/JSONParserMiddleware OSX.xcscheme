@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B00510E91BE9952D001B3F26"
-               BuildableName = "Camarilla.framework"
-               BlueprintName = "Camarilla iOS"
-               ReferencedContainer = "container:Camarilla.xcodeproj">
+               BlueprintIdentifier = "B005109A1BE97B7B001B3F26"
+               BuildableName = "JSONParserMiddleware.framework"
+               BlueprintName = "JSONParserMiddleware OSX"
+               ReferencedContainer = "container:JSONParserMiddleware.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,20 +33,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B00510F21BE9952D001B3F26"
-               BuildableName = "CamarillaTests.xctest"
-               BlueprintName = "Camarilla iOS Tests"
-               ReferencedContainer = "container:Camarilla.xcodeproj">
+               BlueprintIdentifier = "B00510A41BE97B7B001B3F26"
+               BuildableName = "JSONParserMiddlewareTests.xctest"
+               BlueprintName = "JSONParserMiddleware OSX Tests"
+               ReferencedContainer = "container:JSONParserMiddleware.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B00510E91BE9952D001B3F26"
-            BuildableName = "Camarilla.framework"
-            BlueprintName = "Camarilla iOS"
-            ReferencedContainer = "container:Camarilla.xcodeproj">
+            BlueprintIdentifier = "B005109A1BE97B7B001B3F26"
+            BuildableName = "JSONParserMiddleware.framework"
+            BlueprintName = "JSONParserMiddleware OSX"
+            ReferencedContainer = "container:JSONParserMiddleware.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +65,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B00510E91BE9952D001B3F26"
-            BuildableName = "Camarilla.framework"
-            BlueprintName = "Camarilla iOS"
-            ReferencedContainer = "container:Camarilla.xcodeproj">
+            BlueprintIdentifier = "B005109A1BE97B7B001B3F26"
+            BuildableName = "JSONParserMiddleware.framework"
+            BlueprintName = "JSONParserMiddleware OSX"
+            ReferencedContainer = "container:JSONParserMiddleware.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -83,10 +83,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B00510E91BE9952D001B3F26"
-            BuildableName = "Camarilla.framework"
-            BlueprintName = "Camarilla iOS"
-            ReferencedContainer = "container:Camarilla.xcodeproj">
+            BlueprintIdentifier = "B005109A1BE97B7B001B3F26"
+            BuildableName = "JSONParserMiddleware.framework"
+            BlueprintName = "JSONParserMiddleware OSX"
+            ReferencedContainer = "container:JSONParserMiddleware.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
