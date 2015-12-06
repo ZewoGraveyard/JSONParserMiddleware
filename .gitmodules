@@ -1,8 +1,0 @@
-[submodule "HTTPMiddleware"]
-	path = HTTPMiddleware
-	url = https://github.com/Zewo/HTTPMiddleware.git
-	branch = master
-[submodule "JSON"]
-	path = JSON
-	url = https://github.com/Zewo/JSON.git
-	branch = master
