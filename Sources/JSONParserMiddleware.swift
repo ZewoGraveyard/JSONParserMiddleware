@@ -26,10 +26,10 @@ import HTTP
 import HTTPMiddleware
 import JSON
 
-public struct JSONParserMiddleware: HTTPRequestMiddlewareType {
+public struct JSONParserMiddleware: RequestMiddlewareType {
     public let key = "JSONBody"
 
-    public func respond(var request: HTTPRequest) -> HTTPRequestMiddlewareResult {
+    public func respond(var request: Request) -> RequestMiddlewareResult {
         guard let mediaType = request.contentType where mediaType.type == "application/json" else {
             return .Next(request)
         }
@@ -44,7 +44,7 @@ public struct JSONParserMiddleware: HTTPRequestMiddlewareType {
     }
 }
 
-extension HTTPRequest {
+extension Request {
     public var JSONBody: JSON? {
         return context["JSONBody"] as? JSON
     }
