@@ -10,7 +10,7 @@ JSON parser middleware for **Swift 2**.
 
 ## Installation
 
-- Install [`uri_parser`](https://github.com/Zewo/uri_parser), if you haven't already.
+- Install [`uri_parser`](https://github.com/Zewo/uri_parser), if you haven't already. You only have to do this once.
 
 ```bash
 $ git clone https://github.com/Zewo/uri_parser.git
